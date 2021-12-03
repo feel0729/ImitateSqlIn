@@ -1,5 +1,6 @@
 # ImitateSqlIn
 模擬SQL IN
+
 差異: sql 會根據比較值的型態轉型後進行比較,此模仿不會,若比較值的型態不同時,則視為不同
 
 Case 1 : CompareUtils.value("1").in("1", "2", "3")
