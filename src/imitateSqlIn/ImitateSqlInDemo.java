@@ -4,9 +4,9 @@ public class ImitateSqlInDemo {
 
 	public static void main(String[] args) {
 
-		// 模仿Sql的in
-
-		// 差異: sql 會根據比較值的型態轉型後進行比較,此模仿不會,若比較值的型態不同時,則視為不同
+		// Java 模仿 SQL IN
+		// 差異: sql 會根據比較值的型態轉型後進行比較,此模仿不會
+		// 當比較值的型態不同時,則視為不同
 
 		// Case 1 : String 比 String
 		System.out.println("Case 1 : CompareUtils.value(\"1\").in(\"1\", \"2\", \"3\")");
