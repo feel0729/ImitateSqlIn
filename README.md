@@ -1,8 +1,8 @@
 # ImitateSqlIn
 ## Java 模仿 SQL IN
-### 差異:
+差異:<BR>
 sql 會根據比較值的型態轉型後進行比較,此模仿不會<BR>
-當比較值的型態不同時,則視為不同
+當比較值的型態不同時,則視為不同<BR>
 
 ```
 Case 1 : CompareUtils.value("1").in("1", "2", "3")
