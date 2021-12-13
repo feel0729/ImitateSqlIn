@@ -1,5 +1,5 @@
-## ImitateSqlIn
-# Java 模仿 SQL IN
+# ImitateSqlIn
+## Java 模仿 SQL IN
 差異: sql 會根據比較值的型態轉型後進行比較,此模仿不會
 當比較值的型態不同時,則視為不同
 
